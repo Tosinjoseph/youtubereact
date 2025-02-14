@@ -1,0 +1,6 @@
+.v-container .image-container{
+    border: 8px solid rgba(232 232 232 /93%);
+}
+.v-container>div{
+    width: 50%; /*also flex: 1*/
+}
