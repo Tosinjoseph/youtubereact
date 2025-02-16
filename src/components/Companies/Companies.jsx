@@ -3,7 +3,7 @@ import React from 'react'
 
 const Companies = () => {
   return (
-    <section className='companies-wrapper'>
+    <section className='companies-wrapper flexCenter'>
      <div className="paddings innerWidth flexCenter c-container">
         <img src="./prologis.png" alt="" />
         <img src="./tower.png" alt="" />

@@ -17,3 +17,14 @@
 .f-menu span{
     cursor: pointer;
 }
+
+
+@media (max-width: 773px){
+    .f-container{
+        flex-direction: column;
+    }
+    .f-container>div{
+        align-items: center;
+        text-align: center;
+    }
+}

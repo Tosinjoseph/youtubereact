@@ -13,7 +13,8 @@ const Footer = () => {
                 Our vision is to make all people<br/>
                 the best place to live to live for them
             </span>
-            </div>
+        </div>
+
             {/*right */}
             <div className="flexColStart f-right">
                 <span className='primaryText'>Information</span>
