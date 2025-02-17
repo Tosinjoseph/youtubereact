@@ -37,7 +37,7 @@ const Value = () => {
             </span>
 
             <Accordion
-            className='accordion'
+            className='accordion flexCenter'
             allowMultipleExpanded={false}
             preExpanded={[0]}
             >
@@ -45,7 +45,7 @@ const Value = () => {
                   data.map((item, i)=>{
                     const[className, setClassName] =useState(null)
                     return(
-                        <AccordionItem className={`accordionItem flexCenter ${setClassName}`} key={i} uuid={i}>
+                        <AccordionItem className={`accordionItem ${setClassName}`} key={i} uuid={i}>
                          <AccordionItemHeading>
                           <AccordionItemButton className='accordionButton flexCenter'>
 
